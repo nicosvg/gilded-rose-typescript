@@ -6,7 +6,8 @@
   "scripts": {
     "test": "vitest",
     "test:coverage": "vitest run --coverage",
-    "test:ui": "vitest run --coverage --ui"
+    "test:ui": "vitest run --coverage --ui",
+    "test:mutation": "stryker run"
   },
   "license": "MIT",
   "private": true,
