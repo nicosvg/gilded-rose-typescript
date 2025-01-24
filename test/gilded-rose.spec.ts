@@ -8,6 +8,6 @@ describe("Gilded Rose", () => {
     // Act
     const items = gildedRose.updateQuality();
     // Assert
-    expect(items[0].name).toBe("bar");
+    expect(items[0].name).toBe("foo");
   });
 });

@@ -11,5 +11,9 @@ const config = {
   coverageAnalysis: "perTest",
   tsconfigFile: "tsconfig.json",
   mutate: ["app/**/*.ts"],
+  checkers: ["typescript"],
+  typescriptChecker: {
+    prioritizePerformanceOverAccuracy: true,
+  },
 };
 export default config;
