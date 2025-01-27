@@ -7,8 +7,8 @@
     "test": "vitest",
     "test:coverage": "vitest --coverage",
     "test:ui": "vitest --coverage --ui",
-    "test:mutation": "stryker run",
-    "check": "tsc --noEmit"
+    "check": "tsc --noEmit",
+    "mutate": "stryker run"
   },
   "license": "MIT",
   "private": true,
