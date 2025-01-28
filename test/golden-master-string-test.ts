@@ -7,11 +7,6 @@ const items = [
 
 const gildedRose = new GildedRose(items);
 
-let days: number = 20;
-if (process.argv.length > 2) {
-  days = +process.argv[2];
-}
-
 export function runTest(days: number) {
   const logs: string[] = [];
   for (let i = 0; i < days; i++) {
